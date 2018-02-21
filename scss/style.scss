@@ -1,0 +1,24 @@
+@import "partials/include-media";
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/media";
+  
+header {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+@media (min-width: 64em) and (max-width: 90em) {
+  .navbar-default {
+    width: 50px;
+  }
+}
+
+body {
+  display: flex;
+  background: cyan;
+}

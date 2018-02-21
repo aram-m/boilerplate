@@ -1,0 +1,21 @@
+$breakpoints:
+(smPhone:360px,	
+ phone:435px,
+ phoneLd:640px, 
+ tablet: 48em, // 768px
+ tabletLD: 64em, // 1024px
+ laptop: 85.375em, // 1366px
+ desktop: 90em, // 1440px
+ desktopHD: 120em // 1920px
+);
+
+
+
+
+
+
+@include media(">=tabletLD", "<=desktop") {
+.navbar-default {
+	width:50px;
+}
+}
