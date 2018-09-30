@@ -1,4 +1,4 @@
 import '../scss/style.scss';
 
-
-const x = 1;
+const arr = [1, 2, 3];
+const squares = arr.map(x => x * x);
